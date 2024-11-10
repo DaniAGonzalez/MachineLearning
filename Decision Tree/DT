@@ -1,0 +1,4 @@
+Predicting Salary Above 100k Using Decision Tree Classifier
+This code uses a Decision Tree classifier to predict whether an individual earns more than $100k based on their company, job title, and degree. 
+The categorical features are encoded into numerical values using LabelEncoder, and the model is trained on the salaries.csv dataset. 
+The accuracy of the model is evaluated, and predictions can be made for new data points.
