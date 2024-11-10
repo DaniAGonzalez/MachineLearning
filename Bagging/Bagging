@@ -1,0 +1,4 @@
+Bagging for Diabetes Prediction Using Decision Trees
+This code demonstrates the application of Bagging (Bootstrap Aggregating) with Decision Tree classifiers to predict diabetes outcomes. 
+The dataset is preprocessed with scaling, and the model is evaluated using cross-validation and out-of-bag (OOB) scoring. 
+The goal is to improve prediction accuracy by reducing variance through ensemble learning.
