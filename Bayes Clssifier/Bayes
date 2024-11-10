@@ -1,0 +1,4 @@
+Naive Bayes Classifier for Spam Message Detection
+This code implements a Naive Bayes classifier to classify SMS messages as spam or not, using the spam.csv dataset.
+The text data is transformed into numerical features using Count Vectorization, and a pipeline is built to streamline the process. 
+The model is evaluated on a test set to assess its accuracy in predicting spam messages.
