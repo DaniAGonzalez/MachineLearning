@@ -1,0 +1,3 @@
+Comparing Classifiers on Digits Dataset with Cross-Validation
+This code compares multiple machine learning classifiers, including Logistic Regression, SVM, Random Forest, KNN, Naive Bayes, Decision Tree, and MLP, on the digits dataset using different evaluation techniques.
+It applies cross-validation, K-Folds, and Stratified K-Folds to assess model performance and explores hyperparameter tuning for models like Random Forest.
