@@ -1,0 +1,3 @@
+Predicting Housing Prices with Linear, Lasso, and Ridge Regression
+This code demonstrates the process of predicting housing prices using the Melbourne housing dataset. It covers data cleaning, including handling missing values and categorical variables, followed by training a linear regression model. 
+To address overfitting, Lasso and Ridge regression models are applied and evaluated. The models are compared based on their performance on a test dataset.Lie
