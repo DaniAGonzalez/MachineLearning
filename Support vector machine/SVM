@@ -1,0 +1,22 @@
+
+The code provided demonstrates two different machine learning tasks using Support Vector Machines (SVM) and Iris flower classification with sklearn. Here is an overview of what each section does:
+
+Iris Flower Classification using SVM:
+
+The dataset used is the Iris dataset, which consists of 4 features (sepal length, sepal width, petal length, petal width) and a target variable representing three species of flowers.
+The data is loaded and visualized to understand the distribution of the features for each flower species.
+After preprocessing, the features are separated into the independent variables X and the dependent variable y (the target).
+The data is then split into training and test sets using train_test_split.
+A Support Vector Classifier (SVC) model is created and trained on the dataset. The model is evaluated on the test set, and its accuracy is calculated using model.score(X_test, y_test).
+SVM with Polynomial Features on "Moon Dataset":
+
+This part generates a synthetic 2D dataset using make_moons() with some noise, creating a two-class problem in a moon-shaped pattern.
+A SVM with Polynomial Features is used, where polynomial features of degree 3 are added to the data to capture non-linear relationships.
+This is achieved using a pipeline with PolynomialFeatures and StandardScaler, followed by an SVM with a linear kernel (LinearSVC).
+The decision boundary of the trained SVM model is plotted using a custom function plot_decision_boundary, which visualizes how well the model classifies the two classes.
+SVM with Polynomial Kernel:
+
+Another SVM model is created, but this time using a Polynomial Kernel. The kernel function allows the SVM to learn a more complex decision boundary that is not limited to a linear hyperplane.
+The model uses the same moon dataset, and the decision boundary is plotted to visualize the classifier's performance with this non-linear kernel.
+Each SVM model is evaluated by plotting the decision boundaries to visually inspect how well each model classifies the data. 
+The Polynomial Kernel version is expected to handle the non-linear "moon-shaped" data better than a linear SVM, which is confirmed by the visual results.
