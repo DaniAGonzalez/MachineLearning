@@ -1,0 +1,5 @@
+Model Selection and Hyperparameter Tuning with SVM, Random Forest, and Logistic Regression
+This code demonstrates model selection and hyperparameter tuning using the Iris dataset.
+It compares different models (SVM, Random Forest, and Logistic Regression) using GridSearchCV and RandomizedSearchCV to find the best hyperparameters.
+The performance of each model is evaluated with cross-validation, and the optimal model configuration is identified for improved accuracy.
+
