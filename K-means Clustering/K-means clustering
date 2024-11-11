@@ -1,0 +1,4 @@
+Clustering and Classification with K-Means and KNN on Iris and Income Data
+This code explores both clustering and classification tasks using the Iris dataset and an income dataset. It applies K-Means clustering to segment data into groups and visualizes the results,
+demonstrating the importance of feature scaling. It also uses K-Nearest Neighbors (KNN) for classification on the Iris dataset, with model evaluation through confusion matrices and classification reports. 
+The K-Means clustering is optimized using the elbow method to find the ideal number of clusters.
