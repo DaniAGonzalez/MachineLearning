@@ -1,0 +1,31 @@
+Logistic Regression for Handwritten Digit Classification
+This project demonstrates the application of logistic regression to classify handwritten digits using the digits dataset from scikit-learn.
+The dataset contains 8x8 pixel images of digits (0-9), and the goal is to predict the digit (0-9) based on the pixel values.
+
+Key Steps in the Project:
+Dataset Exploration:
+
+The digits dataset contains 1797 samples, each consisting of an 8x8 pixel image of a digit. Each image is flattened into a 64-dimensional vector (8x8 pixels) representing the features of the image.
+The target variable is the digit (0-9) that corresponds to each image.
+Data Splitting:
+
+The dataset is split into training and testing subsets using train_test_split. 80% of the data is used for training, and 20% is reserved for testing.
+Logistic Regression Model:
+
+A logistic regression model is trained using the training data (X_train and y_train).
+The model is evaluated using the test data (X_test and y_test), and its accuracy score is computed.
+Model Evaluation:
+
+The model’s performance is further evaluated by predicting the labels of the test set and calculating the confusion matrix.
+The confusion matrix is visualized using a heatmap to show how well the model performs in distinguishing between different digits.
+Probability Prediction:
+
+The model also predicts the probability distribution over the 10 possible digit classes for a given test image.
+Features:
+Confusion Matrix: The confusion matrix shows the performance of the classifier in a more detailed way, where the main diagonal represents correct predictions, and off-diagonal cells represent misclassifications.
+Heatmap Visualization: A heatmap is used to visualize the confusion matrix, making it easier to identify areas where the model struggles.
+Libraries Used:
+sklearn.datasets: For loading the digits dataset.
+LogisticRegression: For training the logistic regression model.
+train_test_split: For splitting the dataset into training and testing sets.
+confusion_matrix & seaborn: For evaluating and visualizing the model's performance.
