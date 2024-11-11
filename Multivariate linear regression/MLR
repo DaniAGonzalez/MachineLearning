@@ -1,0 +1,5 @@
+Multivariate Linear Regression for Predicting Home Prices and Salaries
+This project demonstrates the application of multivariate linear regression to predict home prices and salaries based on multiple features. 
+The first part uses the "homeprice.csv" dataset to predict house prices based on area, number of bedrooms, and house age. 
+The second part applies linear regression to predict salary based on experience, test scores, and interview scores. 
+The code includes data preprocessing (handling missing values) and feature encoding, followed by training and making predictions with the model.
