@@ -1,0 +1,10 @@
+Logistic Regression for Binary Classification
+This project demonstrates the application of logistic regression to predict a binary outcome based on a single feature (age). 
+The dataset used in this example, insurance_data.csv, contains information on whether individuals purchased insurance or not based on their age. 
+The logistic regression model is trained to classify whether a person bought insurance (binary classification: 0 or 1).
+
+Key Concepts:
+Logistic Regression: A statistical technique used for binary classification, predicting a discrete outcome (such as yes/no or 1/0) based on one or more input features.
+Binary Classification: In this case, the outcome is binary—whether or not an individual bought insurance.
+Prediction: The model predicts whether an individual with a given age will buy insurance.
+Probability: The model also calculates the probabilities of both possible outcomes (e.g., likelihood of buying or not buying insurance).
