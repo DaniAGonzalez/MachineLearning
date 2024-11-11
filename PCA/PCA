@@ -1,0 +1,6 @@
+This project demonstrates the use of Principal Component Analysis (PCA) and Logistic Regression to classify handwritten digits from the digits dataset. 
+The process begins with exploring and preprocessing the data, where features are standardized using StandardScaler.
+Then, a Logistic Regression model is trained on the scaled data and its performance is evaluated on a test set. 
+Next, PCA is applied to reduce the dimensionality of the dataset while retaining 95% of the variance, and the Logistic Regression model is trained again on the transformed data to compare performance before and after applying PCA.
+This approach allows us to observe the impact of dimensionality reduction on model performance. 
+The libraries used include sklearn.datasets to load the dataset, StandardScaler for feature scaling, PCA for dimensionality reduction, LogisticRegression for classification, and train_test_split to split the data into training and testing sets.
