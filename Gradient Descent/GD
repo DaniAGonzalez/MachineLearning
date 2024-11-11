@@ -1,0 +1,5 @@
+Implementing Linear Regression with Gradient Descent
+This code demonstrates two approaches for fitting a linear regression model to predict CS scores based on Math scores.
+The first approach uses custom Gradient Descent to minimize the cost function and find the best-fitting line.
+The second approach uses Scikit-learn's built-in LinearRegression model for comparison.
+The implementation allows for comparison of the coefficient and intercept values obtained from both methods.
